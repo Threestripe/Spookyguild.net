@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="css/animate.css" type="text/css" media="screen">
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <script type="text/javascript" src="http://cdn.cavernoftime.com/api/tooltip.js"></script>
 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800,900|Roboto:300,400,500,700,900&display=swap" rel="stylesheet">
@@ -24,15 +25,265 @@
         <a class="navbar-brand" href="/recruiting">
             <img class="logo" src="img/dab.png"> Spooky</a>
         <div class="row">
-            <small class="float-right text-muted mr-3 quote">Semi taunts Patchwerk. Pawful is a smol healer.</small>
+            <small class="float-right text-muted mr-3 quote">Pawful is a smol healer.</small>
         </div>
     </nav>
 
-<!-- Shit go here -->
+    <div class="info-sheet justify-content-center align-items-center">
+        <!--Armor-->
+        <div class="container mx-auto mt-5">
+            <!--Hand-->
+            <div id="hand-slot">
+                <div class="item-model">
+                    <div class="item-right pull-right">
+                        <div class="item-slot mr-5">
+                            <a target="_blank" href="http://wotlk.cavernoftime.com/item=40347" rel="items">
+                                <img src="http://cdn.cavernoftime.com/wotlk/icons/large/inv_gauntlets_54.jpg" width="50" height="50" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Head-->
+            <div id="head-slot">
+                <div class="item-model">
+                    <div class="item-left">
+                        <div class="item-slot ml-5">
+                            <a target="_blank" href="http://wotlk.cavernoftime.com/item=44006" rel="items">
+                                <img src="http://cdn.cavernoftime.com/wotlk/icons/large/inv_helmet_95.jpg" width="50" height="50" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Belt-->
+            <div id="belt-slot">
+                <div class="item-model">
+                    <div class="item-right pull-right">
+                        <div class="item-slot mr-5 mt-1">
+                            <a target="_blank" href="http://wotlk.cavernoftime.com/item=40317" rel="items">
+                                <img src="http://cdn.cavernoftime.com/wotlk/icons/large/inv_belt_34.jpg" width="50" height="50" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Neck-->
+            <div id="neck-slot">
+                <div class="item-model">
+                    <div class="item-left">
+                        <div class="item-slot ml-5 mt-1">
+                            <a target="_blank" href="http://wotlk.cavernoftime.com/item=44664" rel="items">
+                                <img src="http://cdn.cavernoftime.com/wotlk/icons/large/inv_jewelry_necklace_34.jpg" width="50" height="50" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Leg-->
+            <div id="leg-slot">
+                <div class="item-model">
+                    <div class="item-right pull-right">
+                        <div class="item-slot mr-5 mt-1">
+                            <a target="_blank" href="http://wotlk.cavernoftime.com/item=43994" rel="items">
+                                <img src="http://cdn.cavernoftime.com/wotlk/icons/large/inv_pants_plate_21.jpg" width="50" height="50" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Shoulder-->
+            <div id="shoulder-slot">
+                <div class="item-model">
+                    <div class="item-left">
+                        <div class="item-slot ml-5 mt-1">
+                            <a target="_blank" href="http://wotlk.cavernoftime.com/item=40557" rel="item=40557&ench=3808&gems=3446:0:0">
+                                <img src="http://cdn.cavernoftime.com/wotlk/icons/large/inv_shoulder_29.jpg" width="50" height="50" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Boot-->
+            <div id="boot-slot">
+                <div class="item-model">
+                    <div class="item-right pull-right">
+                        <div class="item-slot mr-5 mt-1">
+                            <a target="_blank" href="http://wotlk.cavernoftime.com/item=39706" rel="items">
+                                <img src="http://cdn.cavernoftime.com/wotlk/icons/large/inv_boots_plate_05.jpg" width="50" height="50" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Cloak-->
+            <div id="cloak-slot">
+                <div class="item-model">
+                    <div class="item-left">
+                        <div class="item-slot ml-5 mt-1">
+                            <a target="_blank" href="http://wotlk.cavernoftime.com/item=40403" rel="items">
+                                <img src="http://cdn.cavernoftime.com/wotlk/icons/large/inv_misc_cape_naxxramas_03.jpg" width="50" height="50" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Ring Slot 1-->
+            <div id="ring1-slot">
+                <div class="item-model">
+                    <div class="item-right pull-right">
+                        <div class="item-slot mr-5 mt-1">
+                            <a target="_blank" href="http://wotlk.cavernoftime.com/item=40075" rel="items">
+                                <img src="http://cdn.cavernoftime.com/wotlk/icons/large/inv_jewelry_ring_48naxxramas.jpg" width="50" height="50" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Chest-->
+            <div id="chest-slot">
+                <div class="item-model">
+                    <div class="item-left">
+                        <div class="item-slot ml-5 mt-1">
+                            <a target="_blank" href="http://wotlk.cavernoftime.com/item=40550" rel="items">
+                                <img src="http://cdn.cavernoftime.com/wotlk/icons/large/inv_chest_plate02.jpg" width="50" height="50" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Ring Slot 2-->
+            <div id="ring2-slot">
+                <div class="item-model">
+                    <div class="item-right pull-right">
+                        <div class="item-slot mr-5 mt-1">
+                            <a target="_blank" href="http://wotlk.cavernoftime.com/item=44935" rel="items">
+                                <img src="http://cdn.cavernoftime.com/wotlk/icons/large/inv_jewelry_ring_74.jpg" width="50" height="50" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Shirt-->
+            <div id="shirt-slot">
+                <div class="item-model">
+                    <div class="item-left">
+                        <div class="item-slot ml-5 mt-1">
+                            <a target="_blank" href="http://wotlk.cavernoftime.com/item=45037" rel="items">
+                                <img src="http://cdn.cavernoftime.com/wotlk/icons/large/inv_shirt_purple_01.jpg" width="50" height="50" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Trinket Slot 1-->
+            <div id="trinket1-slot">
+                <div class="item-model">
+                    <div class="item-right pull-right">
+                        <div class="item-slot mr-5 mt-1">
+                            <a target="_blank" href="http://wotlk.cavernoftime.com/item=40431" rel="items">
+                                <img src="http://cdn.cavernoftime.com/wotlk/icons/large/spell_shadow_rainoffire.jpg" width="50" height="50" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Tabard Slot-->
+            <div id="tabard-slot">
+                <div class="item-model">
+                    <div class="item-left">
+                        <div class="item-slot ml-5 mt-1">
+                            <a target="_blank" href="http://wotlk.cavernoftime.com/item=40643" rel="items">
+                                <img src="http://cdn.cavernoftime.com/wotlk/icons/large/inv_chest_cloth_30.jpg" width="50" height="50" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Trinket Slot 2-->
+            <div id="trinket2-slot">
+                <div class="item-model">
+                    <div class="item-right pull-right">
+                        <div class="item-slot mr-5 mt-1">
+                            <a target="_blank" href="http://wotlk.cavernoftime.com/item=42987" rel="items">
+                                <img src="http://cdn.cavernoftime.com/wotlk/icons/large/inv_inscription_tarotgreatness.jpg" width="50" height="50" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Wrist Slot-->
+            <div id="wrist-slot">
+                <div class="item-model">
+                    <div class="item-left">
+                        <div class="item-slot ml-5 mt-1">
+                            <a target="_blank" href="http://wotlk.cavernoftime.com/item=40330" rel="items">
+                                <img src="http://cdn.cavernoftime.com/wotlk/icons/large/inv_bracer_15.jpg" width="50" height="50" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Weapons-->
+        <div class="container">
+            <div class="row justify-content-center align-items-center">
 
+                <div id="weapon1-slot">
+                    <div class="item-model">
+                        <div class="item-mid">
+                            <div class="item-slot mr-2 mt-1">
+                                <a target="_blank" href="http://wotlk.cavernoftime.com/item=40407" rel="items">
+                                    <img src="http://cdn.cavernoftime.com/wotlk/icons/large/inv_sword_120.jpg" width="50" height="50" />
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
-<!-- Shit end here-->
+                <div id="weapon1-slot">
+                    <div class="item-model">
+                        <div class="item-mid">
+                            <div class="item-slot mr-2 mt-1">
+                                <a target="_blank" href="http://wotlk.cavernoftime.com/item=40407" rel="items">
+                                    <img src="http://cdn.cavernoftime.com/wotlk/icons/large/inv_sword_120.jpg" width="50" height="50" />
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="sigil-slot">
+                    <div class="item-model">
+                        <div class="item-mid">
+                            <div class="item-slot mr-2 mt-1">
+                                <a target="_blank" href="http://wotlk.cavernoftime.com/item=40207" rel="items">
+                                    <img src="http://cdn.cavernoftime.com/wotlk/icons/large/inv_shield_56.jpg" width="50" height="50" />
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+<!--Stat Panel-->
+<div class="container pull-left ml-5 mt-5">
+    <div class="row">
+        <h3 class="info-left text-white mb-2"><u>Stats</u></h3>
+    </div>
+            <p class="text-white">
+Strength: 1957 <br>
+Attack Power: 6,467<br>
+Crit Rating: 15.47%<br>
+Melee Hit: 7.36%<br>
+Expertise: 27/27<br>
+Armor Pen: 81<br>
+</p>
+
+</div>
+    <!-- Shit end here-->
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-</body>
-
-</html>
+</body></html>
