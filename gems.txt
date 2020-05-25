@@ -1,0 +1,48 @@
+Meta
+
+
+Relentless Earthsiege - &gems=3628:0
+
+
+
+
+Red
+
+
+16 Expertise - &gems=3453:0:0
+
+32 AP - &gems=3449:0
+
+
+Blue
+
+
+Green
+
+
+Yellow
+
+
+Orange
+
+
+16 AP 8 Hit - &gems=3492:0:0
+
+8 hit 8 Expertise - &gems=3497:0:0
+
+
+
+Purple
+
+
+JC Only Gems 
+
+
+34 Expertise - &gems=3746:0
+
+
+
+
+Prismatic
+
+6+ all stats - &gems=3750:0
