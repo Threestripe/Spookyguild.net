@@ -46,13 +46,6 @@ margin-bottom: 1.333rem;
     font-weight: 600;
 }
 
-/* Class box */
-.imagebox {
-    padding: 0.3rem;
-    height: 5%;
-    width: 2.5%;
-    display: inline-block;
-}
 
 .opacity-0 {
     opacity: 0 !important;
