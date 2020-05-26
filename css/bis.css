@@ -3,3 +3,35 @@ max-width: 30rem;
 position:relative;
 
 }
+
+
+/* SEMI AUTISM CORNER STARTS HERE */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: transparent;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+/* SEMI AUTISM CORNER ENDS HERE */
+
+
+/*Tests*/
+
+.tier {
+display:none;
+}
+
+.tier:hover {
+
+display: block;
+
+}
