@@ -94,6 +94,12 @@ margin-bottom: 1.333rem;
 .dropdown:hover .dropdown-content {
   display: block;
 }
+
+.spec {
+    color: #fff;
+    display: inline;
+    margin-right: 5px;
+}
 /* SEMI AUTISM CORNER ENDS HERE */
 
 /* Maybe even support hover opacity shifts */
