@@ -37,13 +37,19 @@ max-height: 25%;
 margin-bottom: 1.333rem;
 }
 
-.navbar-brand,
-.logo {
-    width: 13.33%;
-    height: 13.33%;
+.navbar-brand {
     text-transform: uppercase;
     font-family: 'Montserrat';
     font-weight: 600;
+}
+
+.navbar {
+max-height: 6.3rem;
+}
+
+.logo {
+height: 3.333rem;
+width: 3.333rem;
 }
 
 
