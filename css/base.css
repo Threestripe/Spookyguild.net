@@ -4,6 +4,12 @@
     font-weight: 600;
 }
 
+.dab {
+max-height: 33rem;
+max-width: auto;
+}
+
+
 .bg {
     background-color: #1a1a1a;
 }
@@ -48,7 +54,7 @@ margin-bottom: 1.333rem;
 
 /* Class box */
 .imagebox {
-    padding: 0.3rem;
+    padding: 0.2rem;
     height: 5%;
     width: 2.5%;
     display: inline-block;
