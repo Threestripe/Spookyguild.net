@@ -34,31 +34,70 @@
     </nav>
     <div class="container mt-5">
         <div class="row align-items-center justify-content-center ml-2">
-            <div class="dropdown">
-                <img src="img/classicon/Deathknight.svg" class="DK pl-2 " height="50" width="50">
-                <div class="dropdown-content">
-                    <div class="mt-2">
-                        <!--Blood Icon + Name -->
-                        <ul>
-                            <img class="icon-left" src="http://cdn.warmane.com/wotlk/icons/medium/spell_deathknight_bloodpresence.jpg" alt="" />
-                            <a href="#" class="dropdown-toggle" role="button" id="spec" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Blood</a>
-                            <div class="dropdown-menu card-body">
-                                <ul class="dropdown-item tier" href="#">Tier 7</ul>
+            <div class="dropdown d-inline">
+                <div class="panel-group" id="accordionMenu" role="tablist" aria-multiselectable="true">
+                    <img src="img/classicon/Deathknight.svg" class="DK pl-2 " height="50" width="50">
+                    <div class="dropdown-content">
+                        <div id="accordionMenu">
+                        <div class="mt-2">
+                            <!--Blood Icon + Name -->
+                            <ul>
+                                <img class="icon-left ml-4" src="http://cdn.warmane.com/wotlk/icons/medium/spell_deathknight_bloodpresence.jpg" alt="" />
+
+                                <a role="button" data-toggle="collapse" data-parent="#accordionMenu" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne"> Blood</a>
+
+                                <div id="collapseOne" class="panel panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                                <div class="panel-body">
+                                    <hr />
+                                <ul class="panel-header ml-5">
+                                    <a class="dropdown tier" href="#">Tier 7</a>
+                                    <hr />
+                                    <a class="dropdown tier" href="#">Tier 8</a>
+                                    <hr />
+                                </ul>
+                                </div>
+                                </div>
                                 <hr />
-                                <ul class="dropdown-item tier" href="#">Tier 8</ul>
-                            </div>
+                            </ul>
+
+                            <ul>
+                                <img class="icon-left ml-4" src="http://cdn.warmane.com/wotlk/icons/medium/spell_deathknight_frostpresence.jpg" alt="" />
+
+                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordionInner" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"> Frost</a>
+                          
+                                <div id="collapseTwo" class="panel panel-collapse collapse tier" role="tabpanel" aria-labelledby="headingTwo">
+                                <div class="panel-body">
+                                <ul class="panel-header ml-5 mb-1">
+                                    <hr />
+                                    <a href="#">Tier 7</a>
+                                    <hr />
+                                    <a href="#">Tier 8</a>
+                                    </ul>
+                                <hr />
+                                </div>
+                                </div>
+                            </ul>
+
                             <hr />
-                        </ul>
-                        <ul>
-                            <img class="icon-left" src="http://cdn.warmane.com/wotlk/icons/medium/spell_deathknight_frostpresence.jpg" alt="" />
-                            <a href="#" class="dropdown-toggle" role="button" id="spec" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Frost</a>
-                        </ul>
-                        <hr />
-                        <ul>
-                            <img class="icon-left" src="http://cdn.warmane.com/wotlk/icons/medium/spell_deathknight_unholypresence.jpg" alt="" />
-                            <a href="#" class="dropdown-toggle" role="button" id="spec" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Unholy</a>
-                        </ul>
+                            <ul>
+                                <img class="icon-left ml-4" src="http://cdn.warmane.com/wotlk/icons/medium/spell_deathknight_unholypresence.jpg" alt="" />
+                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordionMenu" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree"> Unholy</a>
+                                <div id="collapseThree" class="panel panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                                    <hr />
+                            <div class="panel-body">
+                                <ul class="panel-header ml-5 mb-1">
+                                    <hr />
+                                    <a class="dropdown tier" href="#">Tier 7</a>
+                                    <hr />
+                                    <a class="dropdown tier" href="#">Tier 8</a>
+                                <hr />
+                                </ul>
+                                </div>
+                            </div>
+                            </ul>
+                        </div>
                     </div>
+                </div>
                 </div>
             </div>
             <div class="dropdown">
@@ -232,9 +271,8 @@
         </div>
     </div>
 
+<!--Container for Gear and Title-->
     <div class="container mt-5 mb-5">
-
-
         <div class="container mt-5 mb-5">
             <div class="row mb-5 text-white justify-content-center align-items-center">
                 <h3 class="text-center ml-5">Frost DK <br><br>Tier 7</h3>
@@ -490,4 +528,6 @@
     <script type="text/javascript" src="js/base.js"></script>
 
 
-</body></html>
+</body>
+
+</html>

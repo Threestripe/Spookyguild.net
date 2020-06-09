@@ -8,12 +8,11 @@ position:relative;
 /* SEMI AUTISM CORNER STARTS HERE */
 .dropdown {
   position: relative;
-  display: inline-block;
 }
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #131414;
+  background-color: #1a1a1a;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
@@ -47,8 +46,23 @@ margin-top: 6.9rem;
 .icon-left {
 height: 18px;
 width: 18px;
-margin-right: 0.133rem
+margin-right: 0.133rem;
 }
 
+.tier {
+color: #fff;
+font-size: 0.8rem;
+}
+
+.panel-body {
+background-color: #131414;
+width: 100%;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
 
 /*Responsive as Atreyu */
