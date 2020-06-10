@@ -52,12 +52,16 @@ margin-right: 0.133rem;
 .tier {
 color: #fff;
 font-size: 0.8rem;
+display: inline-block;
+width: 100%;
+height: 100%;
 }
 
 .panel-body {
 background-color: #131414;
 width: 100%;
 }
+
 
 
 ul {
