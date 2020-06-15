@@ -1,7 +1,7 @@
 <img class="spec" src="http://cdn.warmane.com/wotlk/icons/medium/spell_deathknight_bloodpresence.jpg" alt="" height="14" width="14" />
 <img class="spec" src="http://cdn.warmane.com/wotlk/icons/medium/spell_deathknight_frostpresence.jpg" alt="" height="14" width="14" />
 <img class="spec" src="http://cdn.warmane.com/wotlk/icons/medium/spell_deathknight_unholypresence.jpg" alt="" height="14" width="14" />
-
+ 
 
 <img class="spec" src="http://cdn.warmane.com/wotlk/icons/medium/spell_nature_starfall.jpg" alt="" height="14" width="14" />
 <img class="spec" src="https://wotlk.evowow.com/static/images/wow/icons/large/ability_druid_catform.jpg" alt="" height="14" width="14" />
