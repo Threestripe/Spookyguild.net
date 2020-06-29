@@ -13,10 +13,11 @@
     <link rel="stylesheet" href="css/base.css" type="text/css" media="screen">
     <link rel="stylesheet" href="css/bis.css" type="text/css" media="screen">
     <link rel="stylesheet" href="css/animate.css" type="text/css" media="screen">
-
+    
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <script type="text/javascript" src="http://cdn.cavernoftime.com/api/tooltip.js"></script>
+    <script src="jquery-3.5.1.min.js"></script>
 
 
     <!-- Google Fonts -->
@@ -25,20 +26,19 @@
 
 <body class="bg">
     <nav class="navbar navbar-dark bg-dark">
-        <a class="navbar-brand" href="/recruiting">
-            <img class="logo" src="img/dab.png"> Spooky</a>
+        <a class="navbar-brand ml-4" href="/recruiting">
+            <!--<img class="logo" src="img/dab.png">--> Spooky</a>
         <div class="row">
-            <a href="guides.html">
-                <img src="https://www.wowfan.cz/pic/ulduar/ulduar_n.png" width="170" height="70">
-            </a>
-        </div>
-        <div class="row">
-            <small class="float-right text-muted mr-3 quote">Proud father of two: Kologarn and Razorscale.</small>
+            <small class="mr-4 loat-right text-muted mr-3 quote">Proud father of two: Kologarn and Razorscale.</small>
         </div>
     </nav>
+
     <div class="container-fluid">
         <div class="row justify-content-start">
-            <div class="border border-secondary col-md-2 p-0">
+            <div class="mt-2 col-md-2 p-0">
+                <ul class="gaylist mr-auto"> <a href="guides.html">
+                        <img src="https://www.wowfan.cz/pic/ulduar/ulduar_n.png" width="170" height="70">
+                    </a></ul>
                 <ul class="gaylist mr-auto"><a class="link" href="Flame.html">Flame Leviathan</a></ul>
                 <ul class="gaylist mr-auto"><a class="link active" href="Ignis.html">Ignis the Furnace Master</a></ul>
                 <ul class="gaylist mr-auto"><a class="link" href="Razorscale.html">Razorscale</a></ul>
@@ -54,20 +54,80 @@
                 <ul class="gaylist mr-auto"><a class="link" href="Flame.html">Yogg-Saron</a></ul>
                 <ul class="gaylist mr-auto"><a class="link" href="Flame.html">Algalon the Observer</a></ul>
             </div>
-             <div class="p-0 col-md-10">
-                <div class="row gap-y ml-0 border border-secondary">
+            <div class="p-0 col-md-10">
+                <div class="row gap-y ml-0">
                     <img src="https://vignette.wikia.nocookie.net/wowwiki/images/e/ee/Ignis_the_Furnace_Master.jpg/revision/latest?cb=20090218055001" width="310" height="195">
                     <ul class="d-inline p-1">
-                        <li class="text-white"><img src="http://cdn.cavernoftime.com/wotlk/icons/large/inv_gauntlets_54.jpg" width="15" height="15" /> Loot (10 man):</li>
+                        <li class="text-white"><img src="https://wotlk.evowow.com/static/images/wow/icons/large/inv_misc_bag_10.jpg" width="15" height="15" /> Loot (10 man):</li>
                         <li>
-                            <a target="_blank" href="http://wotlk.cavernoftime.com/item=40347">
-                                <img src="http://cdn.cavernoftime.com/wotlk/icons/large/inv_gauntlets_54.jpg" width="15" height="15" />
-                                <span>[Zeliek's Gauntlets]</span>
+                            <a target="_blank" href="http://wotlk.cavernoftime.com/item=45316">
+                                <img src="https://wotlk.evowow.com/static/images/wow/icons/large/inv_bracer_32a.jpg" width="15" height="15" />
+                                <span>[Armbraces of the Vibrant Flame]</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="http://wotlk.cavernoftime.com/item=45318">
+                                <img src="https://wotlk.evowow.com/static/images/wow/icons/large/inv_misc_cape_22.jpg" width="15" height="15" />
+                                <span>[Drape of Fuming Anger]</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="http://wotlk.cavernoftime.com/item=45313">
+                                <img src="https://wotlk.evowow.com/static/images/wow/icons/large/inv_shield_59.jpg" width="15" height="15" />
+                                <span>[Furnace Stone]</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="http://wotlk.cavernoftime.com/item=45312">
+                                <img src="https://wotlk.evowow.com/static/images/wow/icons/large/inv_gauntlets_47.jpg" width="15" height="15" />
+                                <span>[Gloves of Smoldering Touch]</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="http://wotlk.cavernoftime.com/item=45310">
+                                <img src="https://wotlk.evowow.com/static/images/wow/icons/large/inv_gauntlets_54.jpg" width="15" height="15" />
+                                <span>[Drape of Fuming Anger]</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="http://wotlk.cavernoftime.com/item=45314">
+                                <img src="https://wotlk.evowow.com/static/images/wow/icons/large/inv_offhand_ulduarraid_d_03.jpg" width="15" height="15" />
+                                <span>[Igniter Rod]</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="http://wotlk.cavernoftime.com/item=45321">
+                                <img src="https://wotlk.evowow.com/static/images/wow/icons/large/inv_shoulder_91.jpg" width="15" height="15" />
+                                <span>[Pauldrons of Tempered Will]</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="hidden d-inline p-1">
+                        <li class="empty"><br></li>
+                        <li>
+                            <a target="_blank" href="http://wotlk.cavernoftime.com/item=45311">
+                                <img src="https://wotlk.evowow.com/static/images/wow/icons/large/inv_weapon_halberd_30.jpg" width="15" height="15" />
+                                <span>[Relentless Edge]</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="http://wotlk.cavernoftime.com/item=45309">
+                                <img src="https://wotlk.evowow.com/static/images/wow/icons/large/inv_weapon_rifle_33.jpg" width="15" height="15" />
+                                <span>[Rifle of the Platinum Guard]</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="http://wotlk.cavernoftime.com/item=45317">
+                                <img src="https://wotlk.evowow.com/static/images/wow/icons/large/inv_misc_cape_09.jpg" width="15" height="15" />
+                                <span>[Shawl of the Caretaker]</span>
                             </a>
                         </li>
                     </ul>
                 </div>
-                <p class="text-secondary ml-2">Worship that Steelbreaker.</p>
-                <p class="text-secondary ml-2">Tanks gonna tank</p>
+                <h2 class="text-secondary">Strategy</h2>
+                <p class="text-secondary">Tanks gonna tank, heals gonna heal, deeps gonna die Tanks gonna tank, heals gonna heal, deeps gonna dieTanks gonna tank, heals gonna heal, deeps gonna dieTanks gonna tank, heals gonna heal, deeps gonna dieTanks gonna tank, heals gonna heal, deeps gonna dieTanks gonna tank, heals gonna heal, deeps gonna dieTanks gonna tank, heals gonna heal, deeps gonna dieTanks gonna tank, heals gonna heal, deeps gonna dieTanks gonna tank, heals gonna heal, deeps gonna dieTanks gonna tank, heals gonna heal, deeps gonna die Tanks gonna tank, heals gonna heal, deeps gonna dieTanks gonna tank, heals gonna heal, deeps gonna dieTanks gonna tank, heals gonna heal, deeps gonna dieTanks gonna tank, heals gonna heal, deeps gonna dieTanks gonna tank, heals gonna heal, deeps gonna dieTanks gonna tank, heals gonna heal, deeps gonna dieTanks gonna tank, heals gonna heal, deeps gonna dieTanks gonna tank, heals gonna heal, deeps gonna dieTanks gonna tank, heals gonna heal, deeps gonna dieTanks gonna tank, heals gonna heal, deeps gonna dieTanks gonna tank, heals gonna heal, deeps gonna dieTanks gonna tank, heals gonna heal, deeps gonna dieTanks gonna tank, heals gonna heal, deeps gonna dieTanks gonna tank, heals gonna heal, deeps gonna dieTanks gonna tank, heals gonna heal, deeps gonna dieTanks gonna tank, heals gonna heal, deeps gonna dieTanks gonna tank, heals gonna heal, deeps gonna dieTanks gonna tank, heals gonna heal, deeps gonna dieTanks gonna tank, heals gonna heal, deeps gonna dieTanks gonna tank, heals gonna heal, deeps gonna dieTanks gonna tank, heals gonna heal, deeps gonna dieTanks gonna tank, heals gonna heal, deeps gonna dieTanks gonna tank, heals gonna heal, deeps gonna dieTanks gonna tank, heals gonna heal, deeps gonna dieTanks gonna tank, heals gonna heal, deeps gonna dieTanks gonna tank, heals gonna heal, deeps gonna dieTanks gonna tank, heals gonna heal, deeps gonna dieTanks gonna tank, heals gonna heal, deeps gonna dieTanks gonna tank, heals gonna heal, deeps gonna dieTanks gonna tank, heals gonna heal, deeps gonna dieTanks gonna tank, heals gonna heal, deeps gonna dieTanks gonna tank, heals gonna heal, deeps gonna dieTanks gonna tank, heals gonna heal, deeps gonna dieTanks gonna tank, heals gonna heal, deeps gonna dieTanks gonna tank, heals gonna heal, deeps gonna dieTanks gonna tank, heals gonna heal, deeps gonna dieTanks gonna tank, heals gonna heal, deeps gonna dieTanks gonna tank, heals gonna heal, deeps gonna dieTanks gonna tank, heals gonna heal, deeps gonna dieTanks gonna tank, heals gonna heal, deeps gonna dieTanks gonna tank, heals gonna heal, deeps gonna dieTanks gonna tank, heals gonna heal, deeps gonna dieTanks gonna tank, heals gonna heal, deeps gonna dieTanks gonna tank, heals gonna heal, deeps gonna dieTanks gonna tank, heals gonna heal, deeps gonna dieTanks gonna tank, heals gonna heal, deeps gonna dieTanks gonna tank, heals gonna heal, deeps gonna dieTanks gonna tank, heals gonna heal, deeps gonna dieTanks gonna tank, heals gonna heal, deeps gonna dieTanks gonna tank, heals gonna heal, deeps gonna dieTanks gonna tank, heals gonna heal, deeps gonna dieTanks gonna tank, heals gonna heal, deeps gonna dieTanks gonna tank, heals gonna heal, deeps gonna dieTanks gonna tank, heals gonna heal, deeps gonna dieTanks gonna tank, heals gonna heal, deeps gonna dieTanks gonna tank, heals gonna heal, deeps gonna dieTanks gonna tank, heals gonna heal, deeps gonna dieTanks gonna tank, heals gonna heal, deeps gonna dieTanks gonna tank, heals gonna heal, deeps gonna dieTanks gonna tank, heals gonna heal, deeps gonna die</p>
+            </div>
         </div>
-
+    </div>
+</body>
+</html>

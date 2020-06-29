@@ -101,6 +101,9 @@ ul {
     color: purple;
 }
 
+a:hover {
+    text-decoration: none;
+}
 
 .container-fluid {
     position: relative;
@@ -152,6 +155,16 @@ a:hover {
     max-width: 10%;
     max-height: 10%;
     }
+
+span {
+    color: darkviolet;
+    text-decoration: none;
+}
+
+.li, .bigraid {
+	visibility: hidden;
+    display: none;
+}
 
 /* SEMI AUTISM CORNER ENDS HERE */
 
