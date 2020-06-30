@@ -9,15 +9,10 @@
     max-width: auto;
 }
 
-
 .bg {
     background-color: #1a1a1a;
 }
 
-.dont {
-    max-height: 100%;
-    max-width: auto;
-}
 
 .row {
     max-width: 100%;
@@ -105,10 +100,11 @@ a:hover {
     text-decoration: none;
 }
 
-.container-fluid {
+#doremi {
     position: relative;
     animation: movebitch 2s;
     animation-direction: alternate;
+    margin-bottom: 7px;
 }
 
 @keyframes movebitch {
@@ -151,9 +147,8 @@ a:hover {
 }
 
 .thonks {
-    background-image: url(https://wow.zamimg.com/uploads/screenshots/normal/214843-flame-leviathan.jpg);
-    max-width: 10%;
-    max-height: 10%;
+    max-width: auto;
+    max-height: 100%;
     }
 
 span {
@@ -161,9 +156,8 @@ span {
     text-decoration: none;
 }
 
-.li, .bigraid {
-	visibility: hidden;
-    display: none;
+li {
+    list-style-type: none;
 }
 
 /* SEMI AUTISM CORNER ENDS HERE */
