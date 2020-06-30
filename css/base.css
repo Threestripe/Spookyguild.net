@@ -160,6 +160,11 @@ li {
     list-style-type: none;
 }
 
+style background-image {
+    max-height: auto;
+    max-width: 100%;
+    color: beige;
+}
 /* SEMI AUTISM CORNER ENDS HERE */
 
 /* Maybe even support hover opacity shifts */
