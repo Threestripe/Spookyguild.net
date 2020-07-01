@@ -13,7 +13,6 @@
     background-color: #1a1a1a;
 }
 
-
 .row {
     max-width: 100%;
     max-height: auto;
@@ -160,11 +159,12 @@ li {
     list-style-type: none;
 }
 
-style background-image {
-    max-height: auto;
-    max-width: 100%;
-    color: beige;
+.thicc {
+    border: 1px solid #ffd100;
+    margin-bottom: 0px;
+    margin-top: 0px;
 }
+
 /* SEMI AUTISM CORNER ENDS HERE */
 
 /* Maybe even support hover opacity shifts */
