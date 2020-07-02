@@ -21,4 +21,3 @@
 | Main Hand (Alt) | [Constellus](http://wotlk.cavernoftime.com/item=45612)                                 | Algalon 25HM               |
 | Off Hand        | [Wisdom's Hold](http://wotlk.cavernoftime.com/item=45470)                              | Cache of Storms 25HM       |
 | Totem           | [Totem of Forest Growth](http://wotlk.cavernoftime.com/item=40709)                     | Vendor                     |
-|-----------------|----------------------------------------------------------------------------------------|----------------------------|
