@@ -1,0 +1,185 @@
+.bg {
+    background-color: #1a1a1a;
+}
+
+.spook {
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.dab {
+    max-height: 33rem;
+    max-width: auto;
+}
+
+.row {
+    max-width: 100%;
+    max-height: auto;
+}
+
+.link {
+    color: #fff;
+    text-decoration: underline;
+    text-decoration-color:#fff;
+}
+
+.link:hover {
+    color: #ffd100;
+    text-decoration: none;
+}
+
+.active {
+    color: #ffd100;
+    text-decoration: none;
+}
+
+.boxhead{
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.input-box {
+    max-height: 25%;
+    margin-bottom: 1.333rem;
+}
+
+.navbar-brand,
+.logo {
+    width: 13.33%;
+    height: 13.33%;
+    text-transform: uppercase;
+    font-family: 'Montserrat';
+    font-weight: 600;
+}
+
+/* Class box */
+.imagebox {
+    padding: 0.2rem;
+    height: 5%;
+    width: 2.5%;
+    display: inline-block;
+}
+
+.opacity-0 {
+    opacity: 0 !important;
+}
+
+.opacity-1 {
+    opacity: 0.2 !important;
+}
+
+.opacity-2 {
+    opacity: 0.4 !important;
+}
+
+.opacity-3 {
+    opacity: 0.6 !important;
+}
+
+.opacity-4 {
+    opacity: .8 !important;
+}
+
+.opacity-5 {
+    opacity: 1 !important;
+}
+
+ul { 
+    list-style-type: none; 
+}
+
+.li {
+    text-decoration: none;
+    color: purple;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+#doremi {
+    position: relative;
+    animation: movebitch 2s;
+    animation-direction: alternate;
+    margin-bottom: 7px;
+}
+
+@keyframes movebitch {
+    from {top: 700px;} 
+    to{top:0px;} 
+}
+
+.gaylist {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: transparent;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
+  left: -100%;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.spec {
+    color: #ffd100;
+    display: inline;
+    margin-right: 5px;
+    font-size: 14px;
+}
+
+.thonks {
+    max-width: auto;
+    max-height: 100%;
+    }
+
+span {
+    color: darkviolet;
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+.thicc {
+    border: 1px solid #ffd100;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+#legendary {
+    color: darkorange;
+}
+
+.fuckxavia {
+    background-image: url(img/bistalents/uhdk.svg);
+}
+
+/* Maybe even support hover opacity shifts */
+.opacity-0h5 {
+    opacity: 0.3 !important;
+    transition: opacity .25s ease-in-out !important;
+    -moz-transition: opacity .25s ease-in-out !important;
+    -webkit-transition: opacity .25s ease-in-out !important;
+}
+
+.opacity-0h5:hover {
+    opacity: 1 !important;
+}
